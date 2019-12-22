@@ -1,0 +1,117 @@
+body {
+	padding-top: 40px;
+	padding-bottom: 30px;
+	background-color: #ffefd1;
+}
+.navbar-inverse {
+    background-color: #57230f !important;
+    border-color: #ffefd1;
+    color: white;
+}
+.table-bordered {
+    border: 1px solid #57230f !important;
+}
+.page-header {
+    border-bottom: 1px solid #57230f;
+}
+.thumbnail {
+    background-color: #57230f;
+    border: 1px solid #ffefd1;
+
+}
+.thumbnail p, .thumbnail h3 {
+	color: #ffefd1;
+}
+.navbar-inverse .navbar-brand {
+    color: #ffefd1;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffefd1;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #833417;
+}
+h1, h2, h3 {
+	color: #57230f;
+}
+h4 {
+	color: #ffefd1;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #57230f;
+}
+/*-----------------------------------------------*\
+Bouton
+\*-----------------------------------------------*/
+.btn {
+  font-family: Arial;
+  color: #ffefd1;
+  font-size: 20px;
+  background: #57230f;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #833417;
+  color: #ffffff;
+  text-decoration: none;
+}
+/*-----------------------------------------------*\
+Quetes hebdomadaires
+\*-----------------------------------------------*/
+.etape {
+	font-weight:bold;
+}
+.quete {
+	color:#df5653;
+}
+.batiment {
+	font-style:italic;
+}
+.recompense {
+	color:#6d9932;
+}
+
+/*-----------------------------------------------*\
+Mapper
+\*-----------------------------------------------*/
+#list {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  height: auto;
+  border: 1px solid black;
+}
+.cellule {
+  width:20px;
+  height:20px;
+  padding:0;
+}
+#trash{}
+.zone-drop-survolee td{
+  background-color: yellow;
+}
+.zone-drop-active td {
+  background-color: green;
+}
+
+#moveInHere {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background: #eee;
+}
+.dragMe{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background: #eee;
+}
+.obstacle{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    background: #eee;
+}
